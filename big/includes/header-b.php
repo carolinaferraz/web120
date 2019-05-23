@@ -5,10 +5,8 @@
 <?php
 include ("config-b.php");
 ?>
-
 <!DOCTYPE html>
-<html lang="en-us">
-<title>BIG</title>
+<html lang="en">
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8">
@@ -29,7 +27,7 @@ include ("config-b.php");
 <link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/styles.css" />
 <link rel="stylesheet" href="css/lightbox.css" />
-    
+<link rel="stylesheet" href="css/big.css" />
 
  <style>
  html {	
@@ -63,4 +61,3 @@ include ("config-b.php");
      <li><a href="webcam.php"><span>Web Cam</span></a></li>
   </ul>
 </div>
-<h2 class="pageID"><?=$pageID?></h2>

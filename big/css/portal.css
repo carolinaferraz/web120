@@ -27,6 +27,7 @@ div.wrapper {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.25px;
     color: #757575;
+
 }
 
 div.big {
@@ -59,6 +60,7 @@ h1>a {
     text-decoration: none;
     color: #5e747f;
 }
+
 .logo {
     color:#7b9e87;
     margin-left:1%;
@@ -95,6 +97,12 @@ div.gallery {
     width: 24.99999%;
   }
   
+.biglinks {
+  text-decoration: none;
+  color: #7b9e87;
+  background-color: #ebebeb;
+}
+
   @media only screen and (max-width: 700px) {
     .responsive {
       width: 49.99999%;
@@ -131,6 +139,7 @@ div.embed-container {
     overflow: hidden;
     margin: auto;
     max-width: 98%;
+    border: 0;
 } 
 
 div.embed-container iframe {
@@ -139,6 +148,8 @@ div.embed-container iframe {
     left: 0;
     width: 100%;
     height: 100%;
+    border: 0;
+    padding-left: 5%;
 }
 
 footer {
@@ -163,11 +174,6 @@ section p, h2 {
 
 form {
     width: 300px;
-}
-
-aside h3, img {
-    padding-left: 2em;
-    padding-top: 1em;
 }
 
 

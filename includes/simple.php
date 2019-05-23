@@ -1,15 +1,16 @@
 <?php
+//includes/simple.php
+
 /**
- * multiple.php is a postback application designed to provide a 
+ * simple.php is a postback application designed to provide a 
  * contact form for users to email our clients.  
  * 
- * multiple.php provides a larger form with more elements to provide 
- * a richer example form.
+ * simple.php provides a typical feedback form for a website
  *
  * @package nmCAPTCHA2
  * @author Bill & Sara Newman <williamnewman@gmail.com>
  * @version 1.01 2015/11/17
- * @link http://www.newmanix.com/
+ * @link cferraz.000webhostapp.com
  * @license http://www.apache.org/licenses/LICENSE-2.0
  * @see contact_include.php 
  * @see recaptchalib.php
@@ -18,9 +19,9 @@
  */
 
 #EDIT THE FOLLOWING:
-$toAddress = "yourname@example.com";  //place your/your client's email address here
-$toName = "CLIENT NAME HERE"; //place your client's name here
-$website = "CLIENT WEBSITE NAME HERE";  //place NAME of your client's website here
+$toAddress = "carolinapferraz@gmail.com";  //place your/your client's email address here
+$toName = "Portal"; //place your client's name here
+$website = "web120 portal form :)";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
 $dateFeedback = true; //if true will show date/time with reCAPTCHA error - style a div with class of dateFeedback
@@ -70,52 +71,17 @@ if ($response != null && $response->success)
 	<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
 	<div>	
 		<label>
-			How Did You Hear About Us?:<br />
-			<select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
-				<option value="">Choose How You Heard</option>
-				<option value="Phone">Phone</option>
-				<option value="Web">Web</option>
-				<option value="Magazine">Magazine</option>
-				<option value="A Friend">A Friend</option>
-				<option value="Other">Other</option>
-			</select>
-		</label>
-	</div>
-	
-	<div>	
-		<fieldset>
-			<legend>What Services Are You Interested In?</legend>
-			<input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
-			<input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
-			<input type="checkbox" name="Interested_In[]" value="Special Application" /> Special Application <br />
-			<input type="checkbox" name="Interested_In[]" value="Lollipops" /> Complimentary Lollipops <br />
-			<input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
-		</fieldset>
-	</div>
-	
-		<div>	
-		<fieldset>
-			<legend>Would you like to join our mailing list?</legend>
-			<input type="radio" name="Join_Mailing_List?" value="Yes" 
-			required="required" title="Mailing list is required" tabindex="50"  
-			/> Yes <br />
-			<input type="radio" name="Join_Mailing_List?" value="No" /> No <br />
-		</fieldset>
-	</div>
-	<div>	
-		<label>
-			Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="60"></textarea>
+			Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="30"></textarea>
 		</label>
 	</div>	
 	<div><?=$feedback?></div>
-    <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+    <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
 	<div>
 		<input type="submit" value="submit" />
 	</div>
     </form>
 	<!-- END HTML FORM -->
-    <script
-        src="https://www.google.com/recaptcha/api.js?hl=en">
+    <script src="https://www.google.com/recaptcha/api.js?hl=en">
     </script>
 <?php
 }

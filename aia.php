@@ -1,8 +1,7 @@
 <?php 
 //aia.php
 ?>
-
-    <?php
+<?php
 include ("includes/header.php");
 ?>
 

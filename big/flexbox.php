@@ -6,7 +6,6 @@ include ("includes/header-b.php");
 include ("includes/config-b.php");
 ?>
 
-<h2 class="pageID"><?=$pageID?></h2>
 <div class="big">
  <p>"The Flexbox Layout (Flexible Box) module aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word "flex").
 
@@ -33,7 +32,6 @@ If you are well aware of your content before making layout, then blindly opt for
 
 
 </div>
-
 
 <?php
 include ("includes/footer.php");

@@ -13,10 +13,10 @@ include ("../../includes/portal-config.php");
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8">
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-<script src="../js/lightbox.js"></script>
+<script src="js/script.js"></script>
+<script src="js/lightbox-plus-jquery"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -25,6 +25,7 @@ include ("../../includes/portal-config.php");
 <link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/form.css" />
 <link rel="stylesheet" href="css/lightbox.css" />
+<link rel="stylesheet" href="css/big.css" />
 
 </head>
 
@@ -46,4 +47,3 @@ include ("../../includes/portal-config.php");
     </ul>
   </nav>
 </header>
-<h2 class="pageID"><?=$pageID?></h2>

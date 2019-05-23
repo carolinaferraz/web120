@@ -2,9 +2,9 @@
 include ("includes/header-b.php");
 ?>
 
-<h2 class="pageID"><?=$pageID?></h2>
+
 <div class="big">
- <p>"Website monetization is the process of converting existing traffic being sent to a particular website into revenue. The most popular ways of monetizing a website are by implementing pay per click (PPC) and cost per impression (CPI/CPM) advertising." (<a href="https://en.wikipedia.org/wiki/Website_monetization" alt="wikipedia">source</a>)</p>
+ <p>"Website monetization is the process of converting existing traffic being sent to a particular website into revenue. The most popular ways of monetizing a website are by implementing pay per click (PPC) and cost per impression (CPI/CPM) advertising." (<a href="https://en.wikipedia.org/wiki/Website_monetization" title="wikipedia">source</a>)</p>
 
  <p>Naturally, online stores are another way to profit off the exposure that the world wide web facilitates. There are several options available for creating an online store with simple instructions on how to set them up. Wordpress and PayPal integration, for instance, is very popular (see "<a href="https://www.tipsandtricks-hq.com/wordpress-simple-paypal-shopping-cart-plugin-768" title="WordPress Simple PayPal Shopping Cart Plugin">WordPress simple PayPal shopping cart plugin</a>"). </p>
 

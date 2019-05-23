@@ -2,7 +2,7 @@
 include ("includes/header-b.php");
 ?>
 
-<h2 class="pageID"><?=$pageID?></h2>
+
 <div class="big">
  <p>
  Galleries have been important sections of websites from the beginning and are now inseparable from a good user experience. Due to that fact, they have been focus of intense development and customization and can be produced with html/css, Javascript (particularly jQuery). Tutorials and code snippets are endless.</p>

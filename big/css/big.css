@@ -1,0 +1,18 @@
+/* hide agenda view calendar */
+div.agenda-view.embed-container {
+    display:none;
+}
+
+/* CALENDAR RULES FOR PHONE */
+
+@media all and (max-width: 600px) {
+    /* show agenda view calendar */
+    div.agenda-view.embed-container {
+        display:block;
+    }
+
+    /* hide month view calendar */
+    div.month-view.embed-container {
+        display:none;
+    }
+}
