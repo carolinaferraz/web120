@@ -20,8 +20,8 @@
 
 #EDIT THE FOLLOWING:
 $toAddress = "carolinapferraz@gmail.com";  //place your/your client's email address here
-$toName = "Big"; //place your client's name here
-$website = "web120 big form :)";  //place NAME of your client's website here
+$toName = "Candy"; //place your client's name here
+$website = "web120 BIG form :)";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
 $dateFeedback = true; //if true will show date/time with reCAPTCHA error - style a div with class of dateFeedback
@@ -44,7 +44,7 @@ if ($response != null && $response->success)
     <div class="contact-feedback">
         <h2>Your Comments Have Been Received!</h2>
         <p>Thanks for the input!</p>
-        <p>I'll respond via email within 48 hours, if you requested information.</p>
+        <p>We'll respond via email within 48 hours, if you requested information.</p>
     </div>    
     <!-- END HTML FEEDBACK -->        
     <?php
@@ -56,7 +56,6 @@ if ($response != null && $response->success)
     }//end failure feedback
  
 ?>
-<div class="big">
 	<!-- START HTML FORM -->
 	<form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 	<div>
@@ -72,7 +71,7 @@ if ($response != null && $response->success)
 	<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
 	<div>	
 		<label>
-			Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments go here!" tabindex="30"></textarea>
+			Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="30"></textarea>
 		</label>
 	</div>	
 	<div><?=$feedback?></div>
@@ -81,7 +80,6 @@ if ($response != null && $response->success)
 		<input type="submit" value="submit" />
 	</div>
     </form>
-</div>
 	<!-- END HTML FORM -->
     <script src="https://www.google.com/recaptcha/api.js?hl=en">
     </script>

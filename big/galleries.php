@@ -3,7 +3,11 @@ include ("includes/header-b.php");
 ?>
 
 
-<div class="big">
+<!-- START Wrapper -->
+<div class="wrapper">
+<!-- START LEFT COL -->
+<section>
+<h2>Galleries</h2>
  <p>
  Galleries have been important sections of websites from the beginning and are now inseparable from a good user experience. Due to that fact, they have been focus of intense development and customization and can be produced with html/css, Javascript (particularly jQuery). Tutorials and code snippets are endless.</p>
 
@@ -11,7 +15,7 @@ include ("includes/header-b.php");
 
  <p>"When purchasing an item at a physical store, we can ‘touch and feel’ the product that helps instill confidence in our purchase decision. However, shopping online loses this part of the experience. We, as designers, need to instill confidence in other ways. Photos are part of the solution." (Baskanderi, 2017).</p>
 
- <p>With that in mind and in an effort to exercise the addition of responsive features to my pages, I opted for the example of CSS-based responsive gallery provided by W3Schools. Also under consideration is the js-based <a href="http://kenwheeler.github.io/slick/" title="Slick">Slick</a>.</p><br>
+ <p>With that in mind and in an effort to exercise the addition of responsive features to my pages, I opted for the example of CSS-based responsive gallery provided by W3Schools. Also under consideration is the js-based <a class="big"  href="http://kenwheeler.github.io/slick/" title="Slick">Slick</a>.</p><br>
 
 <div class="gallery-ex">
 
@@ -21,7 +25,7 @@ include ("includes/header-b.php");
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="./images/art-1869269_640.jpg">
-      <img src="./images/art-1869269_640.jpg" alt="party balloons" width="600" height="400">
+      <img src="./images/art-1869269_640.jpg" alt="party balloons">
     </a>
     <div class="desc">Image description goes here</div>
   </div>
@@ -31,7 +35,7 @@ include ("includes/header-b.php");
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="./images/away-3024773_640.jpg">
-      <img src="./images/away-3024773_640.jpg" alt="bridge" width="600" height="400">
+      <img src="./images/away-3024773_640.jpg" alt="bridge" >
     </a>
     <div class="desc">Image description goes here</div>
   </div>
@@ -40,7 +44,7 @@ include ("includes/header-b.php");
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="./images/plant-1985874_640.jpg">
-      <img src="./images/plant-1985874_640.jpg" alt="cactus" width="600" height="400">
+      <img src="./images/plant-1985874_640.jpg" alt="cactus" >
     </a>
     <div class="desc">Image description goes here</div>
   </div>
@@ -49,7 +53,7 @@ include ("includes/header-b.php");
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="./images/evening-55067_640.png">
-      <img src="./images/evening-55067_640.png" alt="sunset" width="600" height="400">
+      <img src="./images/evening-55067_640.png" alt="sunset" >
     </a>
     <div class="desc">Image description goes here</div>
   </div>
@@ -61,21 +65,23 @@ include ("includes/header-b.php");
   <p>This example uses media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
 </div>
 
-</div>
+</section>
+<!-- END LEFT COL -->
 
-</p>
+<!-- START RIGHT COL -->
+<aside>
 
-<p><br><b>WORKS CITED</b></p>
+<b>WORKS CITED</b>
 
-<p class="source">Baskanderi, Naema. "Ecommerce UX: Best Practices Product Image Gallery" <i>UX Planet</i>, 24 Sep, 2017, <a href="https://uxplanet.org/ecommerce-ux-best-practices-product-image-gallery-e0ce6145d270" title="Ecommerce UX: Best Practices Product Image Gallery">https://uxplanet.org/ecommerce-ux-best-practices-product-image-gallery-e0ce6145d270</a> - last accessed on 10 May. 2019.</p>
+<p class="source">Baskanderi, Naema. "Ecommerce UX: Best Practices Product Image Gallery" <i>UX Planet</i>, 24 Sep, 2017, <a class="big" href="https://uxplanet.org/ecommerce-ux-best-practices-product-image-gallery-e0ce6145d270" title="Ecommerce UX: Best Practices Product Image Gallery">https://uxplanet.org/ecommerce-ux-best-practices-product-image-gallery-e0ce6145d270</a> - last accessed on 10 May. 2019.</p>
 
-<p class="source">Villa, Jean. "How to optimize your images for web: best practices for improved page speed and other SEO wizardry" <i>Impulsive Creative</i>, 4 Nov, 2018, <a href="https://www.impulsecreative.com/blog/optimize-your-images-for-web" title="How to optimize your images for web: best practices for improved page speed and other SEO wizardry">https://www.impulsecreative.com/blog/optimize-your-images-for-web</a> - last accessed on 10 May. 2019.</p>
+<p class="source">Villa, Jean. "How to optimize your images for web: best practices for improved page speed and other SEO wizardry" <i>Impulsive Creative</i>, 4 Nov, 2018, <a class="big" href="https://www.impulsecreative.com/blog/optimize-your-images-for-web" title="How to optimize your images for web: best practices for improved page speed and other SEO wizardry">https://www.impulsecreative.com/blog/optimize-your-images-for-web</a> - last accessed on 10 May. 2019.</p>
 
-<p class="source">CSS Image Gallery - W3Schools. <a href="https://www.w3schools.com/css/css_image_gallery.asp" title="CSS Image Gallery - W3Schools">https://www.w3schools.com/css/css_image_gallery.asp</a> - last accessed on 10 May. 2019. </p>
+<p class="source">CSS Image Gallery - W3Schools. <a class="big" href="https://www.w3schools.com/css/css_image_gallery.asp" title="CSS Image Gallery - W3Schools">https://www.w3schools.com/css/css_image_gallery.asp</a> - last accessed on 10 May. 2019. </p>
 
-<p class="source">Slick. <a href="http://kenwheeler.github.io/slick/" title="Slick">http://kenwheeler.github.io/slick/</a> - last accessed on 10 May. 2019.</p>
+<p class="source">Slick. <a class="big" href="http://kenwheeler.github.io/slick/" title="Slick">http://kenwheeler.github.io/slick/</a> - last accessed on 10 May. 2019.</p>
 <p>..</p>
-<p class="source">Images credit: <a href="https://pixabay.com/" title="Pixabay">Pixabay</a></p>
+<p class="source">Images credit: <a class="big" href="https://pixabay.com/" title="Pixabay">Pixabay</a></p>
 
 </div>
 

@@ -1,4 +1,110 @@
-/* hide agenda view calendar */
+* {
+    box-sizing: border-box;
+  }
+  
+html {	
+    background-color: #bbd4c2;	
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    line-height: 135%;
+ }
+  
+  body { 
+   background-color: #f7ebec;
+
+ }
+ 
+ div.wrapper {
+    background-color:#fff;
+    overflow:auto;
+    background-color: #f7ebec;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.25px;
+    color: #161515;
+    font-size: 0.95em;
+}
+
+
+ div {
+    padding: 10px;
+ }
+
+ h1, h2, h3, h4 {
+     padding-left: 10px;
+ }
+
+ p {
+     padding-left: 8px;
+     font-size: 0.9em;
+ }
+
+p.source {
+    font-size: 0.8em;
+}
+
+ aside {
+     padding: 15px;
+}
+
+a.big {
+    text-decoration: underline;
+    color: gray;
+    padding: 3px;
+}
+
+a:hover.big {
+    text-decoration: none;
+    background-color: mintcream;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* gallery example styles */
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 3px;
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  .responsive {
+    padding: 3px 5px;
+    float: left;
+    width: 24.99999%;
+  }
+ 
+ /* hide agenda view calendar */
 div.agenda-view.embed-container {
     display:none;
 }
@@ -16,3 +122,106 @@ div.agenda-view.embed-container {
         display:none;
     }
 }
+
+@media only screen and (max-width: 700px) {
+.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+}
+  
+  @media only screen and (max-width: 500px) {
+.responsive {
+    width: 100%;
+}
+}
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  section p, h2 {
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: justify;
+}
+
+form {
+    width: 300px;
+}
+
+aside h3, img {
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+    div.wrapper {
+         width:80%;
+         margin:auto;
+         background-color: #f7ebec;
+     }
+ 
+     section {
+         width:65%;
+         float:left;
+     }
+     
+      aside {	
+         width:34%;
+         float:right;
+     }
+             
+     
+     img.desktop {
+                float:left;
+                width:50%;
+         }
+     
+     img.tablet, img.phone {
+                 display:none;
+         }  
+}
+ 
+ 
+ /* TABLET */
+ @media all and (min-width:737px) and (max-width:1399px) {
+     
+section {
+    width:60%;
+    float:left;
+}
+     
+aside {	
+    width:39%;
+    float:right;
+     }
+     
+img.tablet {
+    width:100%;
+}
+     
+img.phone, img.desktop {
+    display:none;
+}
+}
+ 
+ 
+ /* PHONE */
+ @media all and (max-width:736px) {
+     
+img.phone {
+    width:100%;
+}
+     
+img.tablet, img.desktop {
+    display:none;
+}  
+ 
+ }
