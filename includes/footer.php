@@ -22,6 +22,6 @@ function myFunction() {
      </script>
 </div>
 <!-- END WRAPPER -->
-
+<!--</body>-->
 </body>
 </html>
