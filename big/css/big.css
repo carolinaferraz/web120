@@ -30,6 +30,10 @@ html {
     padding: 10px;
  }
 
+ iframe {
+     border: 0;
+ }
+
  h1, h2, h3, h4 {
      padding-left: 10px;
  }
@@ -56,6 +60,25 @@ a.big {
 a:hover.big {
     text-decoration: none;
     background-color: mintcream;
+}
+
+/* start webcam */
+
+div.dot iframe {
+    border: 0;
+    overflow: hidden;
+}
+
+body.webcam {
+    margin: 0; padding: 0;
+}
+
+body.webcam img {
+    width: 100%;
+    padding: 0;
+    height: 145px;
+    width: 300px;
+    border:0;
 }
 
 /* Embed Responsively Rules! */
@@ -152,7 +175,7 @@ form {
     width: 300px;
 }
 
-aside h3, img {
+aside h3 {
     padding-left: 2em;
     padding-top: 1em;
 }
