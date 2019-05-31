@@ -6,7 +6,7 @@ include ("includes/header-b.php");
 <!-- START LEFT COL -->
 <section>
 <h3>YouTube live stream example</h3>
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/4993sBLAzGA' frameborder='0' allowfullscreen></iframe></div>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/4993sBLAzGA' allowfullscreen></iframe></div>
 
 
 </section>
@@ -22,7 +22,7 @@ include ("includes/header-b.php");
 </aside>
 <!-- END RIGHT COL -->
 </div>
-</div>
+
 <?php
 include ("includes/footer.php");
 ?> 

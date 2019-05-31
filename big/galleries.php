@@ -64,6 +64,7 @@ include ("includes/header-b.php");
 <div style="padding:6px;">
   <p>This example uses media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
 </div>
+</div>
 
 </section>
 <!-- END LEFT COL -->
@@ -82,7 +83,7 @@ include ("includes/header-b.php");
 <p class="source">Slick. <a class="big" href="http://kenwheeler.github.io/slick/" title="Slick">http://kenwheeler.github.io/slick/</a> - last accessed on 10 May. 2019.</p>
 <p>..</p>
 <p class="source">Images credit: <a class="big" href="https://pixabay.com/" title="Pixabay">Pixabay</a></p>
-
+</aside>
 </div>
 
 <?php

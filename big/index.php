@@ -26,7 +26,8 @@ include ("includes/header-b.php");
     include ("includes/simple.php");
 ?>
     <p class="clear-recaptcha"></p>
-
+</aside>
+</div>
 <?php
     include ("includes/footer.php");
 ?>

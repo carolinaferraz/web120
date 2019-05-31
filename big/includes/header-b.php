@@ -28,7 +28,7 @@ include ("config.php");
 <link rel="stylesheet" href="css/big.css" />
 <link rel="stylesheet" href="css/form.css" />
     
-</head>
+
 <!-- topnav --> 
 <script>
 function myFunction() {
@@ -40,7 +40,7 @@ function myFunction() {
     }
 }
      </script>
-
+</head>
   <body>
   <nav id="cssmenu">
   <ul>

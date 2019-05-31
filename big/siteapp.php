@@ -46,7 +46,7 @@ include ("includes/header-b.php");
 <p class="source">Humbert, Mirko. "Benefits of Mobile App Development vs Responsive Web Design" <i>Designer Daily</i>, 30 Aug, 2018, <a class="big" href="https://www.designer-daily.com/benefits-of-mobile-app-development-vs-responsive-web-design-64304" title="Benefits of Mobile App Development vs Responsive Web Design">https://www.designer-daily.com/benefits-of-mobile-app-development-vs-responsive-web-design-64304</a> - last accessed on 10 May. 2019.</p>
 
 <p class="source">Samanta, Jyotirmay. "Mobile Website or Mobile App: What to choose?" <i>The Startup</i>, 23 Jan, 2019. <a class="big" href="https://medium.com/swlh/mobile-website-or-mobile-app-what-to-choose-28d0cf19d93c" title="Mobile Website or Mobile App: What to choose?">https://medium.com/swlh/mobile-website-or-mobile-app-what-to-choose-28d0cf19d93c</a> - last accessed on 10 May. 2019. </p>
-
+</aside>
 </div>
 
 <?php
