@@ -1,0 +1,80 @@
+/* start reCAPTCHA styles */
+
+
+.column {
+	float: left;
+  padding: 15px;
+}
+
+.column1of3, .column3of3 {
+  float:left;
+  width: 250px;
+  margin: 10px;
+}
+
+.column2of3 {
+  float:left;
+  width: 400px;
+  margin: 10px;
+}
+  
+  /* Clear floats after the columns */
+  .form-row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+
+/* keeps form from bunching up to left */
+@media all and (min-width:501px){
+    div.wrapper form {
+    margin-left:22.8px;
+
+    }
+}
+	
+/* writes to small text above reCAPTCHA upon failure */
+
+.dateFeedback{
+  font-style:italic;
+  font-size:80%;
+  font-weight:bold;
+  color:red;
+}
+
+input:required {
+  font-size:80%;
+  border: 1px dotted red;
+}
+
+input:optional, textarea:optional {
+  background-color:#f1f1f1;
+  border:1px solid #857373;
+}
+
+input[type="submit"], input[type="button"] {
+  background-color: #f5eeea;
+  border-radius: 2px;
+  border: solid 1px #857373;
+  padding: 0.2em 0.2em;
+  font-size:150% ;
+  color:#857373;
+  
+}
+
+fieldset {
+  border: 1px solid #857373;
+  max-width: 350px;
+}
+
+legend {
+  margin-left: 0.5em;
+  padding: 0.2em 0.5em;
+  border-left: 1px solid #857373;
+  border-right: 1px solid #857373;
+}
+        
+/* end reCAPTCHA styles */
+
+
