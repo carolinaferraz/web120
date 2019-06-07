@@ -1,25 +1,8 @@
 <?php
-//final project index
-
-/*TO DO LIST: 4.16
-ADJUST HOVER FOR H1 NAME (NESTED SELECTORS)
-WORK ON SERVICES PAGE
-ADD PAGES ID
-MOBILE MENU PADDING
-CLEAN UP INLINE STYLES (EXCEPT SPAN)
-
-
-*/
-?>
-
-<?php
 include ("includes/header.php");
 ?>
- 
-     
-  
 
-    <!-- product list -->
+<!-- product list -->
     <div class="row">
   <div class="column left">
     <h2 id="pageID">Welcome!</h2>
