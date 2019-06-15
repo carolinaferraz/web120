@@ -8,19 +8,19 @@ include ("includes/header.php");
                 icons: { button: "ui-icon-arrowthick-1-s" }
             }) .selectmenu("menuWidget")
   </script>
-</head>
 
 
-<body>
+
+
 <div class="gallery-ex">
 <h2>Product Gallery</h2><br>
 
 <div class="responsive">
   <div class="gallery">
-    <form>
-      <label>Candy Cane <span id="price">($10c)</span>:</label>
-      <i id="holder" class="fas fa-candy-cane"></i>
-      <p><select id="cc">
+  
+      <label>Candy Cane <span class="price">($10c)</span>:</label>
+      <br><br><img alt="Marshmallow" src="img/Pastel-Fluffy-Marshmallow-Sweet-Spiral-2572978_50.jpg">
+      <p>Quantity: <select id="cc">
     <?php 
       for($i=5; $i<=10; $i++) {
           echo "<option value=".$i.">".$i."</option>";
@@ -33,9 +33,9 @@ include ("includes/header.php");
 
 <div class="responsive">
   <div class="gallery">
-      <label>Product 1 <span id="price">($25c)</span>:</label>
-      <i id="holder" class="fas fa-candy-cane"></i>
-      <p><select id="one">
+      <label>Product 1 <span class="price">($25c)</span>:</label>
+      <br><br><img alt="Marshmallow" src="img/Pastel-Fluffy-Marshmallow-Sweet-Spiral-2572978_50.jpg">
+      <p>Quantity: <select id="one">
     <?php 
       for($i=5; $i<=10; $i++) {
           echo "<option value=".$i.">".$i."</option>";
@@ -46,9 +46,9 @@ include ("includes/header.php");
 
 <div class="responsive">
   <div class="gallery">
-      <label>Product 2 <span id="price">($5c)</span>:</label>
-      <i id="holder" class="fas fa-candy-cane"></i>
-      <p><select id="two">
+      <label>Product 2 <span class="price">($5c)</span>:</label>
+      <br><br><img alt="Marshmallow" src="img/Pastel-Fluffy-Marshmallow-Sweet-Spiral-2572978_50.jpg">
+      <p>Quantity: <select id="two">
     <?php 
       for($i=5; $i<=10; $i++) {
           echo "<option value=".$i.">".$i."</option>";
@@ -59,9 +59,9 @@ include ("includes/header.php");
 
 <div class="responsive">
   <div class="gallery">
-      <label>Product 3 <span id="price">($10c)</span>:</label>
-      <i id="holder" class="fas fa-candy-cane"></i>
-      <p><select id="three">
+      <label>Product 3 <span class="price">($10c)</span>:</label>
+      <br><br><img alt="Marshmallow" src="img/Pastel-Fluffy-Marshmallow-Sweet-Spiral-2572978_50.jpg">
+      <p>Quantity: <select id="three">
     <?php 
       for($i=5; $i<=10; $i++) {
           echo "<option value=".$i.">".$i."</option>";
@@ -72,12 +72,13 @@ include ("includes/header.php");
 
 
  <!-- clicking button triggers sum function -->
-<button type="button" id="sum">Calculate</button>
+<p><button type="button" id="sum">Calculate</button></p>
 
 <!-- output field -->
 <p id="left">Total: <br>
-  <input type="button"  id="total" readonly="readonly" /></p>
+  <input type="text"  id="total" readonly="readonly" /></p>
   
+
 <!-- sum function -->
   <script>$("#sum").click(function (e) {
     
@@ -95,13 +96,13 @@ include ("includes/header.php");
     
     });
   </script>
-  </form>
+ 
 
-  <span id="price">* prices per unit.</span><br>
+  <span class="price">* prices per unit.</span><br>
   
   <p id="right">
     <a href="form-success.html" class="button">
-      CHECKOUT</a></p>
+      REVIEW ORDER</a></p>
 
 </div>           
 

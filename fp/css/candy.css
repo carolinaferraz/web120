@@ -30,11 +30,11 @@ body {
   }
   
   .left, .right {
-	width: 25%;
+	width: 30%;
   }
   
   .middle {
-	width: 50%;
+	width: 40%;
 	padding-left: 150px;
   }
   
@@ -88,9 +88,27 @@ img {
     border: 0;
 }
 
+img.abt {
+	width: 50%;
+	height: 50%;
+	float: left;
+	padding: 15px;
+}
+
+img.contact {
+	width: 55%;
+	height: 55%;
+	float: left;
+	padding-left: 0px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
 input {
 	color:#707070; 
 	font-size:2em;
+	width: 100px;
 }
 
 /* gallery styles */
@@ -115,7 +133,7 @@ div.gallery {
     font-size: 0.8em;
   }
 
-  #price {
+  .price {
 	font-size: 12px;
 	background-color: #fbfff9;
 }
@@ -124,15 +142,13 @@ div.gallery {
     padding: 3px 5px;
     float: left;
     width: 25%;
-  }
+}
 
-  #holder {
-	  font-size: 400%;
-	  display: block;
+  .holder {
+	  font-size: 2em;
 	  text-align: center;
 	  padding: 10px;
-
-  }
+}
  
 
 table, th, td {
@@ -142,25 +158,6 @@ table, th, td {
 	text-align: center;
 	background-color: #FCFFF5;
 	letter-spacing: 1.5px;
-}
-
-.about {
-	width: 80%;
-	text-align: justify;
-	padding: 25px;
-	margin-left: 50px;
-	line-height: 145%;
-	background-color: #FCFFF5;
-}
-
-.services {
-	width: 50%;
-	text-align: justify;
-	padding: 25px;
-	margin-left: 200px;
-	line-height: 150%;
-	letter-spacing: 0.75px;
-	background-color: #FCFFF5;
 }
 
 ul {
@@ -189,8 +186,10 @@ a {
 }
 
 a:hover {
-	text-transform: uppercase;
-	color: #dddbdb;
+	/* text-transform: uppercase; */
+	color: #929191;
+	background-color: #f0e3dc;
+	font-weight: bold;
 }
 
 a.nav { 
@@ -202,7 +201,13 @@ a.nav:hover {
 	color: #f7fadf;
 	background-color: #d6d6d6;
 	text-transform: none;
+	font-weight: normal;
 	
+}
+
+a.candytop:hover {
+	background-color: #FCFFF5;
+
 }
 
 .taffy {

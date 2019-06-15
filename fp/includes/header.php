@@ -28,7 +28,7 @@
 <header>
   <h1><a href="index.php"> <span style="background-color: #fff5f5">&nbsp;candy store&nbsp;</span></a></h1>
 
-  <p id="center"><a class="hover" href="index.php"><img src="img/candy.png" width="35" height="35" alt="candy"> <img src="img/candy2.png" width="74" height="35" alt="candy"></a></p>
+  <p id="center"><a class="candytop" href="index.php"><img src="img/candy.png" width="35" height="35" alt="candy"> <img src="img/candy2.png" width="74" height="35" alt="candy"></a></p>
   
   <nav>
     <ul class="topnav" id="topnav-id">
